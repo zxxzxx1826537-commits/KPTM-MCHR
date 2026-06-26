@@ -1,7 +1,6 @@
 # KPTM-DCHR
 We proposed a model, named KPTM-DCHR, to predict the number of lysine modification types that a protein may undergo. The entire procedure contained six consecutive modules. In Module (A), a protein similarity calculation process was performed by integrating protein sequence and domain architecture information, where sequence similarities were computed using normalized Levenshtein distance and Gaussian kernel-based PseAAC similarity, while domain similarity was obtained through a hybrid TF-IDF strategy with neighbor domain augmentation. In Module (B), two complementary hypergraphs, including a KNN-like hypergraph and a spectral clustering-based hypergraph, were constructed based on the protein similarity network to capture the local physical connectivity and global functional similarity of proteins, respectively. In Module (C), the pre-trained ProtT5 model was adopted to extract raw protein features from amino acid sequences, generating the initial protein feature matrix. In Module (D), hypergraph convolution was performed on the constructed hypergraphs to learn high-order structural representations of proteins. In Module (E), a dual-channel attention mechanism was introduced to adaptively fuse the features learned from different hypergraph branches, generating the final fused protein embeddings. In Module (F), a four-layer multilayer perceptron was applied to the fused embeddings to perform regression prediction, thereby producing the final output for the number of lysine modification types of each protein.
-![uploading]("C:\Users\Administrator\Desktop\1.png")
-
+![uploading]([https://github.com/zxxzxx1826537-commits/img/1.png)
 
 
 
