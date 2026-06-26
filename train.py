@@ -49,7 +49,7 @@ except:
 class Args:
     def __init__(self, **kwargs):
         # 请根据您的实际环境修改以下路径！
-        self.pssm_dir = kwargs.get('pssm_dir', r"D:\zxx\protT5_lysine_window")
+        self.pssm_dir = kwargs.get('pssm_dir', r"D:\zxx\protT5_averaged2")
         self.cos_net_path = kwargs.get('cos_net_path', r"D:\zxx\Construct Protein Graph_Matrix\Gaussian_kernel_similarity_net\similarity_net.csv")
         self.lev_net_path = kwargs.get('lev_net_path', r"D:\zxx\Construct Protein Graph_Matrix\Levenshtein_similarity_net\similarity_net.csv")
         self.dom_net_path = kwargs.get('dom_net_path', r"D:\zxx\Construct Protein Graph_Matrix\Domain_similarity_net\similarity_net1.csv")
