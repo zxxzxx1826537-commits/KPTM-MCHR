@@ -32,8 +32,18 @@ python quick_automl.py
 ```
 This executes a fast hyperparameter optimization process using a small dataset and fewer trials.
 
+## Output
+Two types of files will be generated after optimization:
+  - best_hyperparameters.txt or quick_best_hyperparameters.txt: Records the optimal hyperparameter set.
+  - best_hypergraph_protein_model.pth: Model weights with the best cross-validation performance.
 
-# Requirements
+## Notes
+1.Computing Resources: Full optimization consumes substantial time and computational resources.
+2.GPU Acceleration: The program automatically utilizes GPU if available on the device.
+3.Memory Usage: Large datasets occupy considerable memory; adjust data size according to your hardware.
+4.Early Stopping: An early stopping strategy is embedded to avoid overfitting.
+
+## Requirements
 ```bash
 Name                       Version             
 dgl                          1.1.2.cu118        
