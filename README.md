@@ -29,10 +29,15 @@ Optimize the structure of regression head automatically:
 
 ```bash
 python quick_automl.py
+```
+This executes a fast hyperparameter optimization process using a small dataset and fewer trials.
 
-Requirements:
-# Name                       Version             
+
+# Requirements
+```bash
+Name                       Version             
 dgl                          1.1.2.cu118        
 python                       3.9.24              
 pytorch                      2.5.1               
 pytorch-cuda                 12.4                
+```
