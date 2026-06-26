@@ -7,7 +7,7 @@
 1. `train.py`: 原始训练脚本，保持原有功能
 2. `automl_train.py`: 完整的自动化超参数优化脚本
 3. `quick_automl.py`: 快速测试版自动化优化脚本
-4. `HypergraphProteinRegressionModel.py`: 支持动态配置回归头的模型
+4. `HypergraphProteinRegressionModel.py`: 模型
 
 ## 功能特性
 
