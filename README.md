@@ -38,10 +38,10 @@ Two types of files will be generated after optimization:
   - best_hypergraph_protein_model.pth: Model weights with the best cross-validation performance.
 
 ## Notes
-1.Computing Resources: Full optimization consumes substantial time and computational resources.
-2.GPU Acceleration: The program automatically utilizes GPU if available on the device.
-3.Memory Usage: Large datasets occupy considerable memory; adjust data size according to your hardware.
-4.Early Stopping: An early stopping strategy is embedded to avoid overfitting.
+- Computing Resources: Full optimization consumes substantial time and computational resources.
+- GPU Acceleration: The program automatically utilizes GPU if available on the device.
+- Memory Usage: Large datasets occupy considerable memory; adjust data size according to your hardware.
+- Early Stopping: An early stopping strategy is embedded to avoid overfitting.
 
 ## Requirements
 ```bash
